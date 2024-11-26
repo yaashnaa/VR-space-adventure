@@ -1,0 +1,48 @@
+#hud{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Audiowide", sans-serif;
+}
+
+h1#feedback {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    z-index: 100; /* Ensure it appears above other elements */
+    margin: 0; /* Reset default margin */
+    width: 100%; /* Optional: Ensure enough space for text alignment */
+    pointer-events: none; /* Prevent interfering with clicks */
+    font-family: "Tektur", sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* To ensure no scrollbars */
+    position: relative; /* Parent for absolute positioning */
+    width: 100vw;
+    height: 100vh;
+
+}
+#restartButton {
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    display: none; /* Hidden by default */
+}
+
+#restartButton:hover {
+    background-color: #45a049;
+}
+
+

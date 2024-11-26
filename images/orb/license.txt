@@ -1,0 +1,11 @@
+Model Information:
+* title:	orb of Chi
+* source:	https://sketchfab.com/3d-models/orb-of-chi-5b9b6b38c601459e95b24184d68e3255
+* author:	themighty808 (https://sketchfab.com/themighty808)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "orb of Chi" (https://sketchfab.com/3d-models/orb-of-chi-5b9b6b38c601459e95b24184d68e3255) by themighty808 (https://sketchfab.com/themighty808) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space adventure</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-p5-component/dist/aframe-p5-component.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://craignyu.github.io/aframep5/libraries/aframep5-v2.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Tektur:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a-scene id="VRScene">
+      <a-assets>
+        <img id="bg" src="./images/bg.png" />
+        <img id="star_texture" src="./images/star_texture.jpg" />
+        <img id="planet" src="./images/planet.jpeg" />
+        <img id="p1" src="./images/planets/p1.jpg" />
+        <img id="p2" src="./images/planets/p2.jpg" />
+        <img id="p3" src="./images/planets/p3.jpg" />
+        <img id="p4" src="./images/planets/p4.jpg" />
+        <img id="p5" src="./images/planets/p5.jpg" />
+        <img id="p6" src="./images/planets/p6.jpg" />
+        <img id="p7" src="./images/planets/p7.png" />
+        <img id="p8" src="./images/planets/p8.png" />
+        <img id="p9" src="./images/planets/p9.png" />
+        <img id="p10" src="./images/planets/p10.png" />
+        <img id="platform" src="./images/platform.jpeg" />
+        <img id="glow-gif" src="./images/glow1.gif" />
+
+
+        <!-- <a-asset-item id="spaceStation" src="./images/red_big_space_ship_gltf/scene.gltf"></a-asset-item> -->
+        <a-asset-item
+          id="glowing-model"
+          src="./images/orb/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="spaceStation"
+          src="./images/spaceship/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+      <a-sky src="#sky"></a-sky>
+    </a-scene>
+    <div id="hud">Score: <span id="score">0</span></div>
+    <div id="hud" style="top: 50px">
+      <p>Welcome to the Space Adventure!</p>
+      <p>Instructions:</p>
+      <ul>
+        <li>Use <b>WASD</b> to move.</li>
+        <li>Click on glowing objects to collect them.</li>
+        <li>Click the portal to teleport!</li>
+      </ul>
+      <h1 id="feedback"></h1>
+      <button id="restartButton" onclick="restartGame()">Restart</button>
+
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
